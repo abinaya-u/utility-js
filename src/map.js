@@ -1,12 +1,9 @@
-const map = (array,functionName) => {
-
-    const result =[];
-    for(let v of array)
-    {
-        result.push(functionName(v))
-    }
-   return result;
-  
-}
+const map = (array, functionName) => {
+	const result = [];
+	for (let arrayElement of array) {
+		result.push(functionName(arrayElement));
+	}
+	return result;
+};
 
 module.exports = map;

@@ -1,5 +1,5 @@
 const identity = (element) => {
-   return element;
-}
+	return element;
+};
 
 module.exports = identity;

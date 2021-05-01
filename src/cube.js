@@ -1,5 +1,5 @@
 const cube = (element) => {
-    return element*element*element;
-}
+	return element * element * element;
+};
 
 module.exports = cube;

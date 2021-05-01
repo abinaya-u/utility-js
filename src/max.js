@@ -1,6 +1,6 @@
 const max = (array) => {
 
-   let maximum=0;
+   let maximum=array[0];
     for(let element of array)
     {
         maximum = (maximum>element)?maximum:element
